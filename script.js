@@ -415,17 +415,17 @@ let arr1 = [...arr];
 // console.log(3)
 // console.log(getEmp())
 
-// var str = 'Heloo, hi "I am There"'
-// var arr = str.split(" ");
-// let res =[];
-// console.log(arr);
-// for(let i=0;i<arr.length;i++){
-//     if(i%2 == 0)
-//     {
-//          res[i] = arr[i].toUpperCase();
-//     }
-//     else{
-//    res[i]=arr[i];
-//     }
-// }
-// console.log(res.join(" "));
+var str = 'Heloo, hi "I am There"'
+var arr = str.split(" ");
+let res =[];
+console.log(arr);
+for(let i=0;i<arr.length;i++){
+    if(i%2 == 0)
+    {
+         res[i] = arr[i].toUpperCase();
+    }
+    else{
+   res[i]=arr[i];
+    }
+}
+console.log(res.join(" "));
